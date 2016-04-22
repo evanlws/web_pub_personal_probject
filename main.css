@@ -1,0 +1,18 @@
+header {
+	height: 100px;
+	width: 1000px;
+	background-color: #ff0000;
+}
+
+nav {
+	width: 200px;
+	height: 700px;
+	float: left;
+	background-color: #00f4f4;
+}
+
+main {
+	width: 1000px;
+	height: 700px;
+	background-color: green;
+}
