@@ -1,7 +1,15 @@
 header {
 	height: 100px;
 	width: 1000px;
-	background-color: #ff0000;
+	background-color: #6DA67A;
+}
+
+#innerHeader {
+  margin-left: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 nav {
@@ -15,7 +23,7 @@ main {
 	width: 800px;
 	height: 700px;
 	float: left;
-	background-color: green;
+	background-color: #4A4857;
 }
 
 main#index {
@@ -24,11 +32,11 @@ main#index {
 
 article {
 	display: inline-block;
-	margin-top: 22px;
+	margin-top: 30px;
 	margin-left: 22px;
 	width: 300px;
 	height: 300px;
-	background-color: blue;
+	background-color: white;
 	z-index: 2;
 }
 
@@ -37,4 +45,47 @@ a {
 	color: white;
 	vertical-align: middle;
 	text-align: center
+}
+
+h1, h2, h3, p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0px;
+}
+
+article > h1 {
+  background-color: #6DA67A;
+  margin-top: 260px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#alisonWonderland {
+  background-image: url("img/profiles/alison_wonderland.jpg");
+  background-size: contain;
+}
+
+#astr {
+  background-image: url("img/profiles/astr.jpg");
+  background-size: contain;
+}
+
+#flume {
+  background-image: url("img/profiles/flume.jpg");
+  background-size: contain;
+}
+
+#hudsonMohawke {
+  background-image: url("img/profiles/hudson_mohawke.jpg");
+  background-size: contain;
+}
+
+#purityRing {
+  background-image: url("img/profiles/purity_ring.jpg");
+  background-size: contain;
+}
+
+#vindata {
+  background-image: url("img/profiles/vindata.jpg");
+  background-size: contain;
 }
